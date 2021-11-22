@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Brick Comic";
+    src: url("Brick Comic.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "ComicNeue-Regular";
+    src: url("ComicNeue-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "ComicNeue-Bold";
+    src: url("ComicNeue-Bold.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: "KIdDOS-Regular";
+    src: url("KIdDOS-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+
