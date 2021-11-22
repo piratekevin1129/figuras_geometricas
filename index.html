@@ -16,6 +16,9 @@
         <div id="nube2"></div>
         <div id="nube3"></div>
     </div>
+    <div id="logo">
+        <img src="assets/img/logo.png" />
+    </div>
     <div id="container">
         <div id="header">
             <h1 class="title">Figuras Geometricas</h1>
@@ -35,6 +38,7 @@
                 </li>
                 <li><p id="boton-3" onclick="clickBoton('3')">Dibujos</p></li>
                 <li><p id="boton-4" onclick="clickBoton('4')">Juego</p></li>
+                <li><p id="boton-5" onclick="clickBoton('5')">Actividades</p></li>
             </ul>
         </div>
 
@@ -102,7 +106,9 @@
                     <h3>Algunos dibujos de todas las figuras geométricas</h3>
                     <img src="assets/img/figuras-1.png" class="full-img" />
                     <br />
-                    <img src="assets/img/figuras-2.png" class="full-img" />
+                    <video width="800" height="480" controls style="margin: 10px auto; display: block;">
+                        <source src="assets/video/video_informativo.mp4" type="video/mp4" />
+                    </video>
                 </div>
                 <div id="content-4">
                     <h3>Hora de jugar</h3>
@@ -150,6 +156,22 @@
                         <div id="pieza-seleccionada-16" class="pieza-seleccionada pieza-seleccionada-off" w="0" h="0"></div>
                         <div id="pieza-seleccionada-17" class="pieza-seleccionada pieza-seleccionada-off" w="0" h="0"></div>
                     </div>
+                </div>
+                <div id="content-5">
+                    <h3>Actividades para colorear</h3>
+                    <p style="text-align: center;">Descarga e imprime las siguientes imágenes para pintarlas en la comodidad de tu casa</p>
+                    <br />
+                    <a href="assets/actividad_figuras.pdf" target="_blank">
+                        <div class="pdf-card">
+                            <div class="pdf-card-img">
+                                <img src="assets/img/descarga-img.png" />
+                            </div>
+                            <div class="pdf-card-btn">
+                                <p>DESCARGAR</p>
+                                <span></span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>

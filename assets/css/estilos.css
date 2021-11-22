@@ -156,6 +156,18 @@ html{
     }
 }
 
+#logo{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 10px;
+    left: 0px;
+}
+#logo img{
+    width: 100%;
+    height: auto;
+}
+
 #container{
     position: relative;
     width: 100%;
@@ -305,6 +317,14 @@ html{
 #navegacion ul > li:nth-child(4) div:hover{
     background-color: #00ae72;
 }
+#navegacion ul > li:nth-child(5) p,
+#navegacion ul > li:nth-child(5) div{
+    background-color: #f9a30d;
+}
+#navegacion ul > li:nth-child(5) p:hover,
+#navegacion ul > li:nth-child(5) div:hover{
+    background-color: #d0890e;
+}
 
 #navegacion ul > li section{
     position: absolute;
@@ -444,7 +464,7 @@ html{
         right: 15px;
     }
 }
-            
+
 #main{
     position: relative;
     width: 1000px;
@@ -512,6 +532,75 @@ html{
     width: auto;
     height: auto;
     max-width: 100%;
+}
+
+#content > div > a{
+    text-decoration: none;
+    display: block;
+}
+
+.pdf-card{
+    position: relative;
+    width: 320px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    background-color: #f9a30d;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 20px auto;
+    box-shadow: 0px 5px 6px -4px rgba(0,0,0,0.7);
+
+    transition: background-color 0.2s, transform 0.2s, -webkit-transform 0.2s, -o-transform 0.2s;
+    -webkit-transition: background-color 0.2s, transform 0.2s, -webkit-transform 0.2s, -o-transform 0.2s;
+}
+.pdf-card:hover{
+    cursor: pointer;
+    background-color: #ffbd49;
+    transform: scale(1.1) rotate(-2deg);
+    -webkit-transform: scale(1.1) rotate(-2deg);
+    -o-transform: scale(1.1) rotate(-2deg);
+}
+.pdf-card-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.pdf-card-img img{
+    width: 100%;
+    height: auto;
+}
+.pdf-card-btn{
+    display: flex;
+    width: 100%;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.pdf-card-btn p{
+    font-family: 'KIdDOS-Regular';
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.7);
+    font-weight: normal;
+    line-height: normal;
+    display: flex;
+}
+.pdf-card-btn span{
+    display: flex;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/icon-download.svg);
+    filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
+    -o-filter: drop-shadow(0px 0px 3px rgba(0,0,0,0.5));
 }
 
 #footer{
